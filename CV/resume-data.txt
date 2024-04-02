@@ -1,0 +1,138 @@
+
+Henry Alonso Valdivia Barba
+Jr. Los Electrónicos 268 - Urb. Riviera de Monterrico - La Molina
+Edad: 33 años.
+DNI: 46754036
+Teléfono(s): 348-4377 /   (+51)995658885
+E-mail: henry.valdivia.barba@gmail.com
+
+
+Perfil Profesional
+Ingeniero de Software titulado de la Universidad Peruana de Ciencias Aplicadas (UPC). Proactivo, adaptable a cambios y comprometido en la ejecución de proyectos, con gran interés en la gestión, desarrollo y aprendizaje rápido de nuevas tecnologías, algoritmos, inteligencia de negocios y seguridad de computadoras. Conocimientos sólidos en seguridad informática, administración de base de datos, desarrollo de aplicaciones móviles/web y metodologías de desarrollo de software.
+ Formación Académica
+2021- 2023 – IMF Smart Education. Madrid, España
+Máster en Ciberseguridad en línea
+2008-2013 - Universidad Peruana de Ciencias Aplicadas. Lima, Perú.
+  	Ingeniería de Software
+1996-2007 - SS.CC Recoleta. Lima, Perú. Primaria y Secundaria
+
+Experiencia Profesional
+2021 - Actual		SOAINT Peru SAC
+			Líder Técnico
+Desarrollo de aplicaciones web responsive usando Java 11, Spring Boot, ReactJS en una arquitectura de microservicios Azure Cloud (Web Trámites digitales, Web Estado de Cuenta)
+Desarrollo de aplicaciones en Java para la entidad OSCE
+
+Logros Clave
+Web en producción para el proyecto de estado de ahorros de Prima AFP
+
+
+2020 – 2021       		Transforma Digital Perú SAC
+			Líder de Tecnología
+Desarrollo de plataformas webs e-commerce utilizando Wordpress
+Desarrollo de software a medida web responsive utilizando NodeJS, JavaEE, PHP, VueJS, Angular (Web Volvo, Web Atsa)
+Desarrollo de apps móviles nativas e híbridas utilizando NodeJS, Android, iOS y Flutter (App e-commerce, app de gestión de campañas)
+Logros Clave
+Optimización de rendimiento de página web en 70%
+
+2018 – 2020		Forceclose SAC
+			Analista Senior
+Analista Senior Java para el proyecto de SI-UNICON usando Servicios REST, SOAP, Spring Framework, MyBatis, SQL Server y Git.
+Analista Senior Java para el proyecto Internacionalización UNICON Chile – Aplicativos Créditos Web e IDIEM WS usando Servicios REST, SOAP, Struts 2, Spring Framework, MyBatis, SQL Server y Git.
+
+Logros Clave
+Internacionalización de aplicativos de Unicon a Chile
+Optimización de costes en la nube AWS en un 65%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2016 – 2018 		Intefi SAC
+Analista Senior - Líder de Proyecto
+
+Analista Senior y Líder de Proyecto en el desarrollo de las aplicaciones de Software.
+Analista Senior y Líder de Proyecto en el proyecto GoParty (Aplicaciones móviles y web GoPartyApp, Security, Tender, Partner,Leader) usando NodeJS, servicios REST, MongoDB, AngularJS, AWS y Git.
+Líder de Proyecto en el proyecto SIOS para la empresa C&J usando JSF, MySQL, Glassfish, AWS y Git.
+Líder de Proyecto en el proyecto T-ONE de Taurus PHP 7 (Migración), uso de Git.
+
+
+Logros Clave
+Migración de la plataforma T-ONE PHP 5.6 hacia PHP 7.
+Arquitectura móvil en AWS para proyecto GoParty.
+
+
+2014 – 2015    		Everis Perú SAC
+Analista Programador proyectos BBVA
+
+Desarrollador para el proyecto MREC – BBVA en Java Struts 2, Message Broker, Jquery y SVN.
+Analista y coordinador de distribuidos en incidencias, problemas y evolutivos en los aplicativos del cliente BBVA (Banca Empresas, Banca por Internet, etc) en Java Struts 2, JSF, JSTL, Hibernate, Message Broker, WebSphere 6-8 y SVN.
+Logros Clave
+Optimización de performance del sistema de BBVA – Visado en 80%.
+
+2013-2014   		Iteraxion S.A.C
+	      	 	Desarrollador freelance para el proyecto Michelin
+
+Desarrollo de módulos de RRHH y Logística para Intranet Corporativa en SQL Server 2008 R2, .NET MVC 4, Kendo UI, Entity Framework y Git.
+Logros Clave
+Término del módulo de RRHH y Logística
+2013           		Intellisoft S.A
+	       		Practicante programador en dispositivos móviles
+
+Desarrollo de aplicaciones móviles en Android, Blackberry y iOS para el proyecto Intralot (Intellisoft S.A). Servicio REST en Java y SVN.
+Logros Clave
+Término del proyecto Intralot en Android y Blackberry
+
+
+
+2012           		Graña y Montero Digital (GMD S.A)
+                   		Practicante programador en el proyecto MasterCard Perú.
+
+Desarrollo de sistemas batch, reportes y pantallas de mantenimiento en Cobol y RPGILE para el proyecto MasterCard (GMD).
+Logros Clave
+Aprendizaje y desarrollo de requerimientos desde cero en Cobol / RPGILE
+
+
+Logros Generales
+Tesis para título de Ingeniero de Software: Software educativo para enseñanza de Estadística usando HTML5, CSS3, JQuery y Java Server Faces (JSF).
+Tesis para máster de ciberseguridad: Propuesta de Diseño e Implementación de un SIEM
+Certificación AWS Solutions Architect– Associate
+Certificación AWS Developer - Associate
+
+Idiomas
+Inglés (Intermedio)
+Francés (Básico)
+Español (Idioma Nativo)
+
+
+
+
+
+Informática
+Office (Word, Excel, Visio, PowerPoint, Access, Project)
+Lenguajes de Programación: C, C++, C#, Objective C, Java, Javascript, Cobol, RPGILE.
+Móviles: Android (Intermedio), Blackberry (Intermedio), iOS (Básico-Intermedio).
+Base de datos: SQL Server, MySQL, DB2, SQL400, Oracle 10-11g.
+IDE: Eclipse, Borland Builder, Microsoft Visual Studio, Netbeans.
+Web: HTML5, CSS3, Javascript, ASP.NET (Webforms y MVC), JSP, Servicios SOAP, Servicios REST, Diseño Responsive, Angular, Vue, ReactJS.
+Frameworks: .NET framework, IceFaces, JSF, Ajax Toolkit, Liferay Portlets, jQuery, Struts 2, Hibernate, LinQ, Kendo UI, Spring (MVC, Security, Spring Boot).
+Control de Versiones: Subversion (Tortoise SVN, XP-dev), Git (GitHub, Bitbucket).
+Pruebas Unitarias: Nunit y Junit.
+Sistemas Operativos: Windows, Linux (Ubuntu, CentOS, Backtrack 5), AS400.
+Herramientas de “Pentesting” (Hydra, Nikto, BurpSuite, SQLninja, Metasploit, etc.).
+Servidores de Aplicaciones: Apache Tomcat 7, Glassfish 4, WAS 6, WAS 8, JBoss 6, Weblogic 12c, Nginx.
+Manejo de ambiente AWS (EC2, RDS, S3), Manejo de ambiente Azure (CDN, AKS, SQL Azure Database).
+Herramientas Gestión Proyectos: Jira, Trello.
+Herramientas SAST: Sonarqube, Synopsis.
+Herramientas SIEM: Wazuh.
+

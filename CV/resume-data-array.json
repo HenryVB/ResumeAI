@@ -1,0 +1,607 @@
+[
+   {
+      "name":"JESÚS RUDOLF COTRINA NARCISO",
+      "nationality":"N/A",
+      "address":"Jr. Carlos Gonzales 433, San Miguel",
+      "summary":"Bachiller destacado de la carrera Ingeniería Mecatrónica, con intereses en desarrollo de productos, desarrollo de software y automatización industrial. Conocimientos en diversos lenguajes de programación, control y automatización, industria 4.0, IoT, IA, diseño mecánico y lectura de planos. Fuerte en responsabilidad, trabajo en equipo y proactividad. Comprometido en mejorar y desarrollar la tecnología en el Perú.",
+      "education":[
+         "Bachiller en Ingeniería Mecatrónica, PONTIFICIA UNIVERSIDAD CATÓLICA, Lima, 2017-2021"
+      ],
+      "certification":[
+         "Excel Avanzado",
+         "Capacitación en Navegación Autónoma de Robots Móviles",
+         "SAP FI",
+         "Curso de Redes Neuronales y Machine Learning aplicado con Python"
+      ],
+      "skill":[
+         "MS Excel",
+         "MS Office",
+         "Python",
+         "Inventor",
+         "AutoCAD",
+         "C",
+         "C++",
+         "Matlab",
+         "Arduino",
+         "PLC LOGO",
+         "PLC S7 1200",
+         "CODESYS",
+         "FluidSIM",
+         "LVSIM-EMS",
+         "LabVIEW",
+         "Código G",
+         "Microsoft SQL",
+         "SAP"
+      ],
+      "experience":[
+         {
+            "title":"Especialista Jr. de IoT/AI",
+            "company":"G&S Gestión y Sistemas",
+            "date_start":"07-2022",
+            "date_end":"Presente",
+            "description":"Took PLC data from a Teltonika router to the cloud. Developed a system to visualize PLC or sensor data using Raspberry Pi and NodeRed from anywhere in the world. Used PoseEstimation in people."
+         },
+         {
+            "title":"Practicante profesional de IoT/AI",
+            "company":"G&S Gestión y Sistemas",
+            "date_start":"01-2022",
+            "date_end":"06-2022",
+            "description":"Developed Tensorflow models for artificial vision to detect people without helmets and people walking with cell phones. Installed and configured industrial sensors such as tachometers, pressure sensors, temperature sensors, level sensors, flow sensors, ultrasonic sensors. Programmed LoraWan nodes and gateways to obtain sensor data and send it to the cloud."
+         },
+         {
+            "title":"Asistente en proyectos de Visión artificial",
+            "company":"Organización, RAS IEEE PUCP",
+            "date_start":"01-2020",
+            "date_end":"03-2020",
+            "description":"Developed a program in Python and OpenCV to detect dead eggs. Trained detection models in Dectron 2 to locate objects on a board. Developed a program to detect liquid levels in soda filling."
+         }
+      ]
+   },
+   {
+      "name":"Henry Alonso Valdivia Barba",
+      "nationality":"Peruvian",
+      "address":"Jr. Los Electrónicos 268 - Urb. Riviera de Monterrico - La Molina",
+      "summary":"Ingeniero de Software titulado de la Universidad Peruana de Ciencias Aplicadas (UPC). Proactivo, adaptable a cambios y comprometido en la ejecución de proyectos, con gran interés en la gestión, desarrollo y aprendizaje rápido de nuevas tecnologías, algoritmos, inteligencia de negocios y seguridad de computadoras. Conocimientos sólidos en seguridad informática, administración de base de datos, desarrollo de aplicaciones móviles/web y metodologías de desarrollo de software.",
+      "education":[
+         "Máster en Ciberseguridad en línea, IMF Smart Education, Madrid, España, 2021-2023",
+         "Ingeniería de Software, Universidad Peruana de Ciencias Aplicadas, Lima, Perú, 2008-2013",
+         "Primaria y Secundaria, SS.CC Recoleta, Lima, Perú, 1996-2007"
+      ],
+      "certification":[
+         "AWS Solutions Architect– Associate",
+         "AWS Developer - Associate"
+      ],
+      "skill":[
+         "C",
+         "C++",
+         "C#",
+         "Objective C",
+         "Java",
+         "Javascript",
+         "Cobol",
+         "RPGILE",
+         "Android",
+         "Blackberry",
+         "iOS",
+         "SQL Server",
+         "MySQL",
+         "DB2",
+         "SQL400",
+         "Oracle 10-11g",
+         "Eclipse",
+         "Borland Builder",
+         "Microsoft Visual Studio",
+         "Netbeans",
+         "HTML5",
+         "CSS3",
+         "Javascript",
+         "ASP.NET",
+         "Webforms",
+         "MVC",
+         "JSP",
+         "Servicios SOAP",
+         "Servicios REST",
+         "Diseño Responsive",
+         "Angular",
+         "Vue",
+         "ReactJS",
+         ".NET framework",
+         "IceFaces",
+         "JSF",
+         "Ajax Toolkit",
+         "Liferay Portlets",
+         "jQuery",
+         "Struts 2",
+         "Hibernate",
+         "LinQ",
+         "Kendo UI",
+         "Spring",
+         "MVC",
+         "Security",
+         "Spring Boot",
+         "Subversion",
+         "Tortoise SVN",
+         "XP-dev",
+         "Git",
+         "GitHub",
+         "Bitbucket",
+         "Nunit",
+         "Junit",
+         "Windows",
+         "Linux",
+         "Ubuntu",
+         "CentOS",
+         "Backtrack 5",
+         "AS400",
+         "Apache Tomcat 7",
+         "Glassfish 4",
+         "WAS 6",
+         "WAS 8",
+         "JBoss 6",
+         "Weblogic 12c",
+         "Nginx",
+         "AWS EC2",
+         "RDS",
+         "S3",
+         "Azure CDN",
+         "AKS",
+         "SQL Azure Database",
+         "Jira",
+         "Trello",
+         "Sonarqube",
+         "Synopsis",
+         "Wazuh"
+      ],
+      "experience":[
+         {
+            "title":"Líder Técnico",
+            "company":"SOAINT Peru SAC",
+            "date_start":"2021",
+            "date_end":"Actual",
+            "description":"Desarrollo de aplicaciones web responsive usando Java 11, Spring Boot, ReactJS en una arquitectura de microservicios Azure Cloud. Desarrollo de aplicaciones en Java para la entidad OSCE. Web en producción para el proyecto de estado de ahorros de Prima AFP."
+         },
+         {
+            "title":"Líder de Tecnología",
+            "company":"Transforma Digital Perú SAC",
+            "date_start":"2020",
+            "date_end":"2021",
+            "description":"Desarrollo de plataformas webs e-commerce utilizando Wordpress. Desarrollo de software a medida web responsive utilizando NodeJS, JavaEE, PHP, VueJS, Angular. Desarrollo de apps móviles nativas e híbridas utilizando NodeJS, Android, iOS y Flutter. Optimización de rendimiento de página web en 70%."
+         },
+         {
+            "title":"Analista Senior",
+            "company":"Forceclose SAC",
+            "date_start":"2018",
+            "date_end":"2020",
+            "description":"Analista Senior Java para el proyecto de SI-UNICON usando Servicios REST, SOAP, Spring Framework, MyBatis, SQL Server y Git. Analista Senior Java para el proyecto Internacionalización UNICON Chile – Aplicativos Créditos Web e IDIEM WS. Internacionalización de aplicativos de Unicon a Chile. Optimización de costes en la nube AWS."
+         },
+         {
+            "title":"Analista Senior - Líder de Proyecto",
+            "company":"Intefi SAC",
+            "date_start":"2016",
+            "date_end":"2018",
+            "description":"Analista Senior y Líder de Proyecto en el desarrollo de las aplicaciones de Software. Líder de Proyecto en diferentes proyectos: GoParty, SIOS para la empresa C&J, y T-ONE de Taurus PHP 7. Migración de la plataforma T-ONE PHP 5.6 hacia PHP 7. Arquitectura móvil en AWS para proyecto GoParty."
+         },
+         {
+            "title":"Analista Programador proyectos BBVA",
+            "company":"Everis Perú SAC",
+            "date_start":"2014",
+            "date_end":"2015",
+            "description":"Desarrollador para el proyecto MREC – BBVA en Java Struts 2, Message Broker, Jquery y SVN. Analista y coordinador de distribuidos en incidencias, problemas y evolutivos en los aplicativos del cliente BBVA en Java Struts 2, JSF, JSTL, Hibernate, Message Broker, WebSphere y SVN. Optimización de performance del sistema de BBVA – Visado en 80%."
+         },
+         {
+            "title":"Desarrollador freelance para el proyecto Michelin",
+            "company":"Iteraxion S.A.C",
+            "date_start":"2013",
+            "date_end":"2014",
+            "description":"Desarrollo de módulos de RRHH y Logística para Intranet Corporativa en SQL Server, .NET MVC 4, Kendo UI, Entity Framework y Git. Término del módulo de RRHH y Logística."
+         },
+         {
+            "title":"Practicante programador en dispositivos móviles",
+            "company":"Intellisoft S.A",
+            "date_start":"2013",
+            "date_end":"N/A",
+            "description":"Desarrollo de aplicaciones móviles en Android, Blackberry y iOS para el proyecto Intralot (Intellisoft S.A). Servicio REST en Java y SVN. Término del proyecto Intralot en Android y Blackberry."
+         },
+         {
+            "title":"Practicante programador en el proyecto MasterCard Perú",
+            "company":"Graña y Montero Digital (GMD S.A)",
+            "date_start":"2012",
+            "date_end":"N/A",
+            "description":"Desarrollo de sistemas batch, reportes y pantallas de mantenimiento en Cobol y RPGILE para el proyecto MasterCard (GMD). Aprendizaje y desarrollo de requerimientos desde cero en Cobol / RPGILE."
+         }
+      ]
+   },
+   {
+      "name":"Marlon Cristhian Añez Castro",
+      "nationality":"Peruvian",
+      "address":"Lima - Perú",
+      "summary":"Mi carrera profesional está vinculada como responsable TI y Consultor Técnico. Especializado en Recovery, Backup, Almacenamiento, Virtualización, Networking y Cloud.",
+      "education":[
+         "CIP 321719 Ingeniero de Sistemas, Universidad Autónoma de Ica, 2022",
+         "Veeam Certified Engineer (VMCE 11)",
+         "AWS Certified Solutions Architect",
+         "Microsoft Certified: Azure Fundamentals",
+         "AWS Certified Cloud Practitioner",
+         "AWS Data Migration",
+         "Acronis Cloud Tech Advance Backup",
+         "Acronis Cloud Tech Disaster Recovery",
+         "Palo Alto Networks System Engineer",
+         "ZT Cloudflare Zero Trust"
+      ],
+      "certification":[
+         "Vmware vSphere 6.7",
+         "Windows Server 2016",
+         "Scrum Foundation Professional SFPC",
+         "CISCO Ciberseguridad",
+         "CISCO Internet of things",
+         "CCNA Routing & Switching",
+         "CCNA Security",
+         "NDG Linux"
+      ],
+      "skill":[
+         "Recovery",
+         "Backup",
+         "Almacenamiento",
+         "Virtualización",
+         "Networking",
+         "Cloud",
+         "Vmware vSphere",
+         "Windows Server",
+         "Scrum",
+         "CISCO Ciberseguridad",
+         "CCNA",
+         "Linux",
+         "ITIL"
+      ],
+      "experience":[
+         {
+            "title":"Cloud Infrastructure Specialist",
+            "company":"Seidor Technologic",
+            "date_start":"01/01/2021",
+            "date_end":"Present",
+            "description":"Planificación de despliegue, Configuración de entornos locales, Migraciones y puesta en marcha de aplicaciones, Pruebas y validación."
+         },
+         {
+            "title":"Especialista en Storage & Backup",
+            "company":"TIVIT PERÚ",
+            "date_start":"01/05/2019",
+            "date_end":"25/11/2019",
+            "description":"Administración de switches SAN BROCADE, Administración de equipos Storage EMC VPLEX, VNX, VMAX, Dell EMC XtremIO, Storwize 7000, Administración Arcserver Unified Data Protection, Diseñar y planificar la migración de datos entre sistemas de almacenamiento, Monitoreo de alertas con Nagios, Pruebas de DRP (Cliente Pacifico Seguros), Administración plataforma AWS/AZURE, Administración de servidores Linux Centos/Redhat."
+         },
+         {
+            "title":"Ingeniero de Soporte",
+            "company":"CIBERNOS",
+            "date_start":"01/09/2013",
+            "date_end":"15/04/2019",
+            "description":"Manejo de la plataforma Bacula System Enterprise (Backup), Soporte vía remota VPN Site to client a distintas sedes, Troubleshooting 3 nivel, Administración de sistemas de almacenamiento en disco (SAN, NAS), Pruebas DRP Cliente editorial Santillana, Administración de servidores Linux Debian, Ubuntu y servidores Windows 2012, Gestión de servicios basados en ITIL."
+         }
+      ]
+   },
+   {
+      "name":"Eder Junior Lar Soto",
+      "nationality":"N/A",
+      "address":"N/A",
+      "summary":"Como Ingeniero de Sistemas colegiado desde 2021, con 8 años de experiencia destacada en el sector financiero, he liderado proyectos estratégicos de automatización en áreas críticas como gestión de riesgo operacional, continuidad del negocio y seguridad de la información. Actualmente, me desempeño como líder del equipo de desarrollo de software Normativo y BI en la Caja Municipal de Sullana. Mi trayectoria incluye una participación activa en proyectos de implementación de sistemas web Java, sistemas de escritorio C#, y despliegue de plataformas BI. Me enorgullece haber contribuido al éxito de diversos proyectos gracias a mi sólido conocimiento en lenguajes como Java, JavaScript, Oracle Developer, .NET C#, y frameworks de desarrollo como Spring, Spring MVC y Spring Boot. Además, poseo la certificación internacional de Microsoft AZ-900. Como egresado de la Maestría en Administración de Negocios (MBA), estoy comprometido con el crecimiento personal y profesional, manteniéndome actualizado con las últimas tendencias tecnológicas. Mi enfoque proactivo y dedicación a la mejora continua me preparan para abordar los retos del mañana. Estoy ansioso por contribuir con mi experiencia y habilidades a nuevos proyectos y desafíos",
+      "education":[
+         "Maestría en Administración de Negocios – MBA"
+      ],
+      "certification":[
+         "Microsoft Certified: Azure Fundamentals (AZ900)",
+         "Microsoft Power BI PL-300 2023"
+      ],
+      "skill":[
+         "Lenguaje Java, JavaScript",
+         "Lenguaje .Net – C#",
+         "Base de datos SQL Server, Oracle Developer, Postgresql, Mysql",
+         "Framework de desarrollo, Spring, Spring MVC, Spring Boot",
+         "Desarrollo FrondEnd, HTML, CSS, JavaScript, Angular",
+         "Desarrollo JPA, JAVA-EE, Web Services",
+         "TortoiseSVN, GitLab",
+         "Creación de Procesos ETL con Pentaho Spoon, Carter",
+         "Ley 29733 - Protección de datos Personales",
+         "Marco de trabajo Agil – SCRUM",
+         "Gestión de accesos en sistemas de información",
+         "Redes Lan y Wan",
+         "Sistemas basados en Terminales remotos",
+         "Sistemas de administración y monitoreo de LAN",
+         "Virtualización de escritorios",
+         "Plataforma GOOGLE – SUITE",
+         "Conocimientos de configuración para Sistemas Operativos Windows 7,8 y 10, Windows Server 2003, 2012 y 2016"
+      ],
+      "experience":[
+         {
+            "title":"LIDER – DESARROLLADOR APLICACIONES EMPRESARIALES",
+            "company":"CAJA SULLANA",
+            "date_start":"12/2021",
+            "date_end":"Actualidad",
+            "description":"Ejecutar el desarrollo y actualización de los sistemas de Información que dan soporte a los procesos de Negocio de Caja Sullana; considerando los lineamientos definidos en Manual de Procesos para la Gestión del Software, Estándares del proceso de desarrollo, Manual de Gestión de seguridad de la Información y Ciberseguridad, Manual de Arquitectura de Tecnología de la Información, Manual para la Gestión de Proyectos en Caja Sullana. Desarrollar los sistemas de información que requieran las áreas de Caja Sullana, de acuerdo a las prioridades establecidas en el portafolio de proyectos informáticos. Efectuar el mantenimiento y actualización de los sistemas de información garantizando su adecuación a las necesidades de los usuarios, su continuidad y/o correcta operatividad. Implementar las soluciones de sistemas de información desarrolladas por su equipo, así como participar y supervisar la implementación de las aplicaciones adquiridas a terceros, a fin de garantizar su correcta operatividad e integración con la arquitectura de aplicaciones de Caja Sullana. Propo"
+         },
+         {
+            "title":"Desarrollador Junior Java",
+            "company":"CAJA SULLANA",
+            "date_start":"02/2021",
+            "date_end":"12/2021",
+            "description":"Diseñar y/o implementar los objetos y/o nuevos artefactos de software requeridos para atender los requerimientos a los sistemas de información de Caja Sullana. Documentar código fuente de acuerdo a los estándares de la Caja Sullana. Documentar las pruebas unitarias ejecutadas, así como de todos los entregables que realiza. Realizar pruebas unitarias a los elementos construidos. Garantizar el cumplimiento de las especificaciones realizadas por el Programador y/o Analista de Desarrollo de Aplicaciones. Otras funciones relacionadas que le indique su jefe inmediato. Proponer soluciones en sistemas de información que optimicen los procesos y generen valor a Caja Sullana. Apoyar en la definición de especificaciones técnicas de los sistemas de información adquiridos a terceros. Apoyar al usuario final en el adecuado uso de los sistemas de información, proporcionándole las herramientas y los medios necesarios para tales fines."
+         },
+         {
+            "title":"Gestor de Producción – Oracle Developer",
+            "company":"CAJA SULLANA",
+            "date_start":"02/2019",
+            "date_end":"02/2021",
+            "description":"Primera línea de consultas y solicitudes hechas por los usuarios de la Caja Sullana, relacionado a automatización de procesos normativos o reportaría para las diferentes áreas administrativas y de negocio. Procesar información de calidad para los entes internos y externos. Funciones Coordinar y apoyar en la obtención de información válida (reportes) del sistema de información para brindarla a las unidades de control interna o externa en coordinación con los dueños de la información y de acuerdo a las políticas de seguridad y clasificación de la información. Generar información normativa y para el balance. Identificar e implementar mecanismos de control para reducir el riesgo de entrega de información errada. Salvaguardar la data como producto de los procesos de información para el suministro ante requerimientos de los entes internos y/o externos. Otras funciones que le indique su jefe inmediato"
+         },
+         {
+            "title":"Locador - Desarrollador Java – Seguridad de Información",
+            "company":"CAJA SULLANA",
+            "date_start":"05/2016",
+            "date_end":"12/2018",
+            "description":"Diseñar y/o implementar los objetos y/o nuevos artefactos de software requeridos para atender los requerimientos Al sistema de Riesgo operacional, seguridad de la información, continuidad de negocio. Mantenimiento de reporteria JasperReport. Creación de nuevos módulos según requerimiento de las áreas de seguridad información, continuidad del negoco y riesgo operacional. Elaboración de querys en la base PostgreSql a fin de obtener información no automatizada. Automatización de querys para optimizar tiempos de respuesta en la base de datos. Orquestar cambios para los pases a producción. Remitir informes mensuales sobre la carga de data, relacionado a activos de información, continuidad de negocio y riesgo operacional. Revisión de controles de seguridad de la información, formatos de accesos temporales, registro de medidas de tratamiento y riesgo operacional"
+         },
+         {
+            "title":"Analista Desarrollador .NET C# - SqlServer",
+            "company":"SERVITEC COMPUT",
+            "date_start":"01/2016",
+            "date_end":"12/2018",
+            "description":"Desarrollo de Software .NET C# (45 clientes) Creación y adición de objetos de base de datos. Desarrollo de nuevos formularios y módulos para diversos rubros comerciales. Participación activa en el modelamiento de la base de datos. Gestión de Bases de Datos: Elaboración de consultas para procedimientos almacenados. Modelamiento y optimización de bases de datos en entorno SQL Server. Automatización de reportes para mejorar la eficiencia operativa. Herramientas de Desarrollo: Instalación y configuración de herramientas de desarrollo para asegurar un entorno de trabajo eficiente y actualizado. Capacitación y Mentoría: Impartición de capacitación a practicantes para facilitar su aprendizaje y desarrollo profesional. Relaciones con Clientes: Realización de visitas a clientes para presentar y ofrecer soluciones de desarrollo de software. Colaboración estrecha con clientes para entender sus necesidades y adaptar soluciones personalizadas. Automatización y Eficiencia: Automatización de reportes para agilizar procesos y mejorar la toma de decisiones. Implementación de prácticas eficientes en el desarrollo para mejorar la productividad del equipo."
+         }
+      ]
+   },
+   {
+      "name":"Gerson Italo Huarcaya Zapana",
+      "nationality":"Perú",
+      "address":"Arequipa, Perú",
+      "summary":"Backend Developer con 5+ años de experiencia desarrollando aplicaciones web usando Spring, Angular and .NET con servicios SOAP y REST. Experiencia en desarrollo para distribuidoras locales, empresas de telefonía y banca. Capacidad para trabajar en equipos pequeños y equipos segmentados en diferentes países bajo flujos estructurados. Facilidad para el aprendizaje y busca nuevas experiencias en nuevos proyectos.",
+      "education":"Ingeniería de Sistemas, Universidad Nacional de San Agustín, Arequipa, Perú, Diciembre de 2020.",
+      "certification":[
+         "Scrum Foundation Professional Certificate (SFPC) - Certiprof, 2022"
+      ],
+      "skill":{
+         "programming_languages":{
+            "advanced":[
+               "Java",
+               "Typescript",
+               "SQL"
+            ],
+            "intermediate":[
+               "C#"
+            ],
+            "basic":[
+               "Python"
+            ]
+         },
+         "frameworks_tools":{
+            "intermediate":[
+               "Spring",
+               "Hibernate",
+               "JPA",
+               "Swagger",
+               "Maven",
+               "Junit",
+               "Mockito",
+               "Angular",
+               "Firebase",
+               "Fontawesome",
+               "Material"
+            ],
+            "basic":[
+               ".NET",
+               "Django",
+               "Docker"
+            ]
+         },
+         "databases":[
+            "MySQL",
+            "Postgresql",
+            "MongoDB"
+         ],
+         "tools":[
+            "Jira",
+            "Sonarqube",
+            "Jenkins",
+            "Slack",
+            "Git",
+            "Bitbucket"
+         ],
+         "agile":[
+            "Scrum"
+         ],
+         "languages":{
+            "intermediate":[
+               "Inglés"
+            ],
+            "native":[
+               "Español"
+            ]
+         }
+      },
+      "experience":[
+         {
+            "title":"Senior Developer",
+            "company":"NttData - Santa Lucia",
+            "date_start":"Julio 2023",
+            "date_end":"Actualidad",
+            "description":"Proyecto de mantenimiento y desarrollo para las nuevas plataformas de SantaLucia - España. Experience with Java, Angular, PostgreSQL, Openshift, Bitbucket, Figma."
+         },
+         {
+            "title":"Java Developer",
+            "company":"Stefanini- Izipay",
+            "date_start":"Enero 2023",
+            "date_end":"Julio 2023",
+            "description":"Participación en el proyecto PGS para el manejo de cuentas Izipay, añadiendo nuevas funcionalidades y dando soporte para los posibles errores y nuevos despliegues. Experience with Java, Microservices, Springboot, Gradle, SonarQube, Bitbucket, Scrum."
+         },
+         {
+            "title":"Software Engineer",
+            "company":"Indra - BBVA",
+            "date_start":"Marzo 2022",
+            "date_end":"Enero 2023",
+            "description":"Desarrollo de proyectos bajo la metodología scrum interactuando con equipos segmentados de diferentes países. Participación en dos proyectos relacionados con préstamos a nivel local y global. Experience with Java, Microservices, Springboot, Maven, SonarQube, Jenkins, Bitbucket, Scrum."
+         },
+         {
+            "title":"Center Developer",
+            "company":"NttData - MásMovil",
+            "date_start":"Octubre 2021",
+            "date_end":"Abril 2022",
+            "description":"Reducción de errores reportados en el sistema en un 20%. Supervisión y soporte a servidores remotos, revisiones de código e integración con sistemas jbpm. Experience with Java, Mule, PostgreSQL, JBPM."
+         },
+         {
+            "title":"Desarrollador Junior",
+            "company":"Dimexa - Propelia",
+            "date_start":"Febrero 2021",
+            "date_end":"Octubre 2021",
+            "description":"Aumento de funciones en un 10%, mejora de la eficiencia del equipo en un 30%. Mejoras en procesos de creación antiguos mediante mantenimiento y mejora de proyectos y aplicaciones de clientes. Experience with SpringBoot, Java, ZK, Jboss, Hibernate, JPA, PostgreSQL."
+         },
+         {
+            "title":"Desarrollador FrontEnd",
+            "company":"Pangolabs",
+            "date_start":"Febrero 2019",
+            "date_end":"Septiembre 2020",
+            "description":"Aumento de eficiencia del equipo en un 20% mediante el desarrollo de un sistema de registro de actividades. Aumento del registro y uso de la web para Antapacay mediante implementación de sistema HSEC con mejor interfaz y velocidad de consumo. Experience with Angular, .NET, Firebase, Primeng, Material, Java, C#, Swagger, Trello, MySQL."
+         },
+         {
+            "title":"Desarrollador FrontEnd",
+            "company":"Hospital Docente de la Universidad Nacional de San Agustín",
+            "date_start":"Abril 2019",
+            "date_end":"Diciembre 2019",
+            "description":"Aumento de la eficiencia, gestión y tiempo de atención en un 50% mediante el uso del Sistema de Gestión del Hospital de la Universidad Nacional de San Agustín. Experience with Django, Angular, Swagger, Trello, Git."
+         }
+      ]
+   },
+   {
+      "name":"Harold Portillo",
+      "nationality":"Peru",
+      "address":"Lima, Peru",
+      "summary":"Soy una persona proactiva y emprendedora, con gran facilidad de aprendizaje. Alta capacidad de trabajo en equipo y de amoldarse ante cualquier situación y poder generar soluciones ante cualquier imprevisto. Tengo iniciativa propia para generar ideas que ayuden a la rapidez del trabajo y muchas ganas de superación.",
+      "education":[
+         "Ingeniero Informático at Universidad Ricardo Palma, 2016-2020, Lima, Peru"
+      ],
+      "certification":[
+         "Angular Avanzando UDEMY",
+         "Diseño Web Avanzado UDEMY",
+         "AWS Cloud Practitioner UDEMY",
+         "REACT Avanzando UDEMY",
+         "Diseño web Avanzando UDEMY"
+      ],
+      "skill":[
+         "Angular 5+",
+         "Jenkins",
+         "Bitbucket",
+         "Jira",
+         "AWS",
+         "Jasmine",
+         "Karma",
+         ".Net Core",
+         "React.js",
+         "Boostrap",
+         "Scrum",
+         "Azure",
+         "SQL Server",
+         "Oracle",
+         "Microfrontend",
+         "Java",
+         "Springboot",
+         "Spring JDBC"
+      ],
+      "experience":[
+         {
+            "title":"Desarrollador FullStack",
+            "company":"NTT DATA S.A.C.",
+            "date_start":"DEC 2020",
+            "date_end":"ACTUALIDAD",
+            "description":"Desarrollo de micro frontends y microservicios en java orientados al flujo bancario del BCP."
+         },
+         {
+            "title":"Desarrollador FULLSTACK",
+            "company":"SIGCOMT S.A.C.",
+            "date_start":"JUL 2020",
+            "date_end":"DEC 2020",
+            "description":"Programación de servicios Rest en .Net y flujos frontend en Angular para la entidad Calida."
+         },
+         {
+            "title":"Desarrollador FULLSTACK",
+            "company":"STAMINER S.A.C.",
+            "date_start":"JUL 2019",
+            "date_end":"JUL 2020",
+            "description":"Programación de servicios Rest y web app en angular para una red social de deportistas."
+         },
+         {
+            "title":"Desarrollador FULLSTACK",
+            "company":"GESTION Y SISTEMAS S.A.C.",
+            "date_start":"JUL 2018",
+            "date_end":"JUL 2019",
+            "description":"Programación de servicios Rest para su implementación, también desarrollo en framework Angular para proyectos de los clientes Exalmar Pesquera, Ripley Bodegas y La Contraloria."
+         }
+      ]
+   },
+   {
+      "name":"ANGELO LUGO",
+      "nationality":"Perú",
+      "address":"Lima, Perú",
+      "summary":"Ingeniero de Sistemas con +4 años de experiencia en desarrollado de software. Me apasiona la tecnología, inicié como Freelance para proyectos Web en Java, continué como Programador Java Junior en DIRESA, Programador GeneXus Java y C++ en una Consultora de Software. Actualmente, soy Arquitecto de Software en Interseguro, donde continúo ampliando mis habilidades técnicas y de gestión.",
+      "education":[
+         "Ingeniería de Sistemas, Universidad Nacional José Faustino Sánchez Carrión, 2015-2020"
+      ],
+      "certification":[
+         "Programador Java, SAP Integral, SAP HANNA, SAP ERP, Universidad Nacional de Ingeniería",
+         "Especialización Java Web Developer, Spring Boot 2, NodeJs, Galaxy Training"
+      ],
+      "skill":[
+         "JS/Angular/VueJs/React",
+         "Java/C#/C++/Nodejs/Golang",
+         "GoogleCloudPlatform/Azure",
+         "MongoDB/MySQL/DB2/SQLS",
+         "Postman/SoapUI",
+         "SonarQube/Testing",
+         "Maven/Graddle",
+         "Spring Framework, S. Data, S. Security, S.Cloud",
+         "Firebase9, Identity Platform",
+         "Comunicación efectiva",
+         "Resolución de problemas",
+         "Trabajo en Equipo",
+         "Team Lead"
+      ],
+      "experience":[
+         {
+            "title":"Arquitecto de Software",
+            "company":"Interseguro S.A",
+            "date_start":"Apr 2023",
+            "date_end":"Present",
+            "description":"Responsable del diseño y desarrollo de aplicaciones, empleando diversas tecnologías como Node.js, Golang y Java, así como frameworks frontend como Vue (Nuxt3), React (NextJs) y Angular. Uso metodologías como Integración Continua, TDD y Desarrollo Ágil. En el backend, sigo una arquitectura de microservicios, incluyendo microservicios orquestadores."
+         },
+         {
+            "title":"Programador Sr Java",
+            "company":"TCI S.A",
+            "date_start":"Jan 2022",
+            "date_end":"Mar 2023",
+            "description":"Responsable del análisis y desarrollo de funcionalidades para las aplicaciones web de facturación electrónica y OSE, Suite Movil y SuiteOnline, ambas aplicaciones de control de Guías de Remisión, de Facturación Electrónica en los sistemas de gestión ePortal y eGestor."
+         },
+         {
+            "title":"Analista Programador Sr",
+            "company":"Canvia",
+            "date_start":"Agos 2022",
+            "date_end":"Feb 2023",
+            "description":"Desarrollo de mejoras y nuevas funciones para la plataforma web SUNAT y participación en el equipo de desarrollo de Microservicios."
+         },
+         {
+            "title":"Programador Semi Sr",
+            "company":"Hiper SA",
+            "date_start":"Jan 2022",
+            "date_end":"Jul 2022",
+            "description":"Desarrollo y mantenimiento de procesos y transacciones para bancos y servicios electrónicos en Colombia."
+         },
+         {
+            "title":"Programador Genexus Jr",
+            "company":"PROEMSA SAC",
+            "date_start":"Sep 2020",
+            "date_end":"Dec 2021",
+            "description":"Desarrollo de aplicaciones web a medida para varias empresas."
+         },
+         {
+            "title":"Programador Java Jr",
+            "company":"DIRESA Lima",
+            "date_start":"Dec 2019",
+            "date_end":"Mar 2020",
+            "description":"Diseño web y mantenimiento de la página web DIRESA, desarrollo de Reportes documentación de Serums y mantenimiento del Portal de Transparencia."
+         }
+      ]
+   }
+]

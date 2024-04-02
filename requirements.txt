@@ -1,0 +1,4 @@
+openai~=1.14.3
+docx2txt~=0.8
+pillow~=10.2.0
+python-dotenv~=1.0.1

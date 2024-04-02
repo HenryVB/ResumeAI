@@ -1,0 +1,43 @@
+ {
+        "name": "John Doe",
+        "nationality": "American",
+        "address": "123 Main Street, Cityville, State, USA",
+        "summary": "Como Ingeniero de Sistemas colegiado desde 2021, con 8 años de experiencia destacada en el sector financiero, he liderado proyectos estratégicos de automatización en áreas críticas como gestión de riesgo operacional, continuidad del negocio y seguridad de la información. Actualmente, me desempeño como líder del equipo de desarrollo de software Normativo y BI en la Caja Municipal de Sullana. Mi trayectoria incluye una participación activa en proyectos de implementación de sistemas web Java, sistemas de escritorio C#, y despliegue de plataformas BI. Me enorgullece haber contribuido al éxito de diversos proyectos gracias a mi sólido conocimiento en lenguajes como Java, JavaScript, Oracle Developer, .NET C#, y frameworks de desarrollo como Spring, Spring MVC y Spring Boot. Además, poseo la certificación internacional de Microsoft AZ-900. Como egresado de la Maestría en Administración de Negocios (MBA), estoy comprometido con el crecimiento personal y profesional, manteniéndome actualizado con las últimas tendencias tecnológicas. Mi enfoque proactivo y dedicación a la mejora continua me preparan para abordar los retos del mañana. Estoy ansioso por contribuir con mi experiencia y habilidades a nuevos proyectos y desafíos",
+        "education": ["Bachelor of Science in Computer Science, University of Technology, 2015-2018",
+                      "Master of Science in Software Engineering, Tech Institute,2018-2020"],
+        "certifications": ["Certification in Data Science (Coursera)", "Project Management Professional (PMP)"],
+        "skills": ["Java",
+                   "Python",
+                   "JavaScript",
+                   "HTML/CSS",
+                   "ReactJS",
+                   "Node.js",
+                   "SQL",
+                   "Git",
+                   "Docker",
+                   "AWS",
+                   "Scrum"],
+        "experiences": [
+            {
+                "title": "Senior Software Engineer",
+                "company": "Tech Solutions Inc.",
+                "date_start": "January 2017",
+                "date_end": "Present",
+                "description": "Led a team of developers in the successful delivery of multiple projects, resulting in a 20% increase in client satisfaction. Implemented agile methodologies resulting in a 30% reduction in project delivery time."
+            },
+            {
+                "title": "Software Engineer",
+                "company": "Innovative Technologies",
+                "date_start": "September 2015",
+                "date_end": "August 2017",
+                "description": "Contributed to the development of a new web application using ReactJS and Node.js, which resulted in a 15% improvement in page load time. Received Employee of the Month award for outstanding performance."
+            },
+            {
+                "title": "Intern",
+                "company": "Software Systems Corp.",
+                "date_start": "June 2014",
+                "date_end": "May 2015",
+                "description": "Assisted senior developers in debugging and testing software modules. Presented innovative solutions for optimizing code, resulting in a 25% reduction in bugs reported by clients."
+            }
+        ]
+ }
