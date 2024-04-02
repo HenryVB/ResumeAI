@@ -1,5 +1,7 @@
+import os
 import json
 import openai
+from pymongo import MongoClient
 
 from docx import Document
 import docx2txt as d2t_reader
@@ -128,7 +130,7 @@ def convert_resume_info(data):
                         date_start: <start date in Month-Year format>, date end: <start date in Month-Year format>,
                         description: <Description of the job/ position, participated or in course projects and achievements>). 
         }
-        In case information is not found for any field of the JSON output, set value to "N/A".     
+        In case information is not found for any field of the JSON output, set value to "N/A".      
        """,
         },
         {
@@ -146,6 +148,8 @@ def convert_resume_info(data):
     print(response)
 
     resume_info = json.loads(response.choices[0].message.content)
+    resume_info["full_resume_text"] = data
+    print(resume_info)
     return resume_info
 
 
@@ -176,24 +180,176 @@ def get_summary_ai(data):
     print(response.choices[0].message.content)
 
 
-def get_tech_experience_insight(data):
-    return "Insight 1"
+def get_tech_experience_insight(str_data):
+    config = dotenv_values(".env")
+    openai.api_key = config["OPENAI_API_KEY"]
+    messages = [
+        {
+            "role": "system",
+            "content": """You will be provided with information about candidates resume data in a large text in english or spanish.
+            Each candidate resume information is separated by the word ##RESUME##.
+            Your task is to analyze the education,skills,experience and certification mentioned in the information of each candidate. Identify the most common programming languages, frameworks, tools, technologies and methodologies. 
+            You will highlight first the top skills found among the candidates.
+            You will return a json array format of the top programming languages,frameworks,tools,methodologies and technologies mentioned, 
+            along with their frequencies and expertise level for each item.
+            For expertise level consider 0-3 where 0 is No Experience and 3 Expert. 
+            To determine expertise level take into consideration factors like education,skills, certification and experience in technology 
+            Here an example for desired JSON Format and explanation of each field:
+                {
+                    "Technology": <Name of Programming Language, framework, tool,methodology or technology> (Example: Python),
+                    "Frecuency": <Frecuency found> (Example: 3),
+                    "Expertise": <Expertise level of technology> (Example: 3), 
+                }
+            """,
+        },
+        {
+            "role": "user",
+            "content": str_data,
+        }
+    ]
+
+    response = openai.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=messages
+    )
+    print("*********resultado insight 1**********")
+    # print(response)
+    print(response.choices[0].message.content)
 
 
-def get_featured_clients_projects_insight(data):
-    return "Insight 2"
+def get_featured_clients_projects_insight(str_data):
+    config = dotenv_values(".env")
+    openai.api_key = config["OPENAI_API_KEY"]
+    messages = [
+        {
+            "role": "system",
+            "content": """You will be provided with information about candidates resume data in a large text in english or spanish.
+            Each candidate resume information is separated by the word ##RESUME##.
+            Your task is to analyze the employment histories of each candidate to identify mentions of work carried out for B2C clients. 
+            Extract details such as the type of projects undertaken and the technologies utilized.
+            Translate to spanish.
+            Here an example for desired output  and explanation of each field:
+                        Cliente: (Nombre del cliente Example: Verizon),
+                        Proyectos: 
+                            - <Project 1 Description>
+                            - <Project 2 Description>
+                        Tecnologias: <Technology 1, Technology 2, Technology 3>
+            
+            Important: Don't consider education courses or certifications as a client or project.  
+            """,
+        },
+        {
+            "role": "user",
+            "content": str_data,
+        }
+    ]
+
+    response = openai.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=messages
+    )
+    print("*********resultado insight 2**********")
+    # print(response)
+    print(response.choices[0].message.content)
 
 
-def get_competencies_skills_analysis_insight(data):
-    return "Insight 3"
+def get_competencies_skills_analysis_insight(str_data):
+    config = dotenv_values(".env")
+    openai.api_key = config["OPENAI_API_KEY"]
+    messages = [
+        {
+            "role": "system",
+            "content": """You will be provided with information about candidates resume data in a large text in english or spanish.
+            Each candidate resume information is separated by the word ##RESUME##.
+            Your task is to analyze the competencies and skills outlined to uncover patterns and emerging trends. 
+            Identify areas of strength and potential skill gaps within the technological landscape. 
+            This analysis will inform targeted training and development initiatives to enhance organizational capabilities.
+            Translate to spanish.
+            
+            Output: A report in general outlining prevalent competencies, skills and areas for development identified,
+            structured to facilitate actionable insights for skill enhancement strategies.
+             
+            
+            """,
+        },
+        {
+            "role": "user",
+            "content": str_data,
+        }
+    ]
+
+    response = openai.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=messages
+    )
+    print("*********resultado insight 3**********")
+    # print(response)
+    print(response.choices[0].message.content)
 
 
-def get_sectorial_experience_insight(data):
-    return "Insight 4"
+def get_sectorial_experience_insight(str_data):
+    config = dotenv_values(".env")
+    openai.api_key = config["OPENAI_API_KEY"]
+    messages = [
+        {
+            "role": "system",
+            "content": """You will be provided with information about candidates resume data in a large text in english or spanish.
+            Each candidate resume information is separated by the word ##RESUME##.
+            Your task is to analyze the data employment  and summary histories of candidates.
+            Then highlight the experience in different sectors or industries (For example: Banking)
+            in order to show the diversity of talent on each sector or industry. 
+            Translate to spanish.
+            
+            The output will be a list containing for each industry or sector:
+            industry or sector, number of employers specialized, average time in years of expertise and expertise level
+            For expertise level consider 0-3 where 0 is No Experience and 3 Expert. To determine expertise level take into consideration factors like years, different roles, number of employers in sector and achievements.             
+            
+            Example Output:
+            - Sector or Industry: Banking
+            - Number of employers: 5
+            - Average Experience: 5 years
+            - Expertise Level: 2 (Medium)
+
+            """,
+        },
+        {
+            "role": "user",
+            "content": str_data,
+        }
+    ]
+
+    response = openai.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=messages
+    )
+    print("*********resultado insight 4**********")
+    # print(response)
+    print(response.choices[0].message.content)
+
+
+def save_resume_db(data):
+    config = dotenv_values(".env")
+    uri = config["MONGO_URI"]
+    client = MongoClient(uri)
+    db = client[config["MONGO_DATABASE"]]
+    collection = db["resumes"]
+    collection.insert_one(data)
+
+
+def get_all_resumes():
+    config = dotenv_values(".env")
+    uri = config["MONGO_URI"]
+    client = MongoClient(uri)
+    db = client[config["MONGO_DATABASE"]]
+    collection = db["resumes"]
+    cursor_result = collection.find()
+    list_resumes = list(cursor_result)
+    return list_resumes
 
 
 def main():
-    resume_file = 'CV/Harold_Portillo_945962801.pdf'
+    # GERSION ITALO TIENE ERROR, REVISAR
+    resume_file = 'CV/JaimeAngelo_AntunezLugo_945962801.pdf'
     print("***Lectura CV***")
     full_resume_text = extract_text_from_resume(resume_file)
     print(full_resume_text.strip())
@@ -204,6 +360,22 @@ def main():
     create_document(json_data)
     print("***Resumen con OpenAI***")
     get_summary_ai(full_resume_text)
+    print("***MongoTest***")
+    # save_resume_db(json_data)
+    list_resumes = get_all_resumes()
+
+    list_full_text_resume = []
+    for item in list_resumes:
+        print(f"{item['_id']} - {item['name']}")
+        list_full_text_resume.append(item['full_resume_text'])
+
+    all_resumes_string = "##RESUME##".join(str(element) for element in list_full_text_resume)
+
+    get_tech_experience_insight(all_resumes_string)
+    get_featured_clients_projects_insight(all_resumes_string)
+    get_competencies_skills_analysis_insight(all_resumes_string)
+    get_sectorial_experience_insight(all_resumes_string)
+    # print(os.listdir("CV/"))
 
 
 if __name__ == "__main__":
