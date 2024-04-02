@@ -105,8 +105,8 @@ def convert_resume_info(data):
             "education": <List of degree obtained in schools 
                         (Ex: Bachelor of Science in Computer Science, University of Technology, 2015-2018)>,
             "certification": <List of certificates obtained, courses of the candidate>
-            "skill": <List of hard or soft skills/tools of the candidate 
-                      (Ex: programming languages, methodologies, tools)>
+            "skill": <List of hard or soft skill/tool of the candidate 
+                      (Ex: Python, Scrum, Windows 8)>
             "experience": <List of work experience in companies of the candidate. Include actual position>
                         Consider these fields in each element of experience: 
                         (title: <Position in the Job>, company: <Name of the Company>, 
