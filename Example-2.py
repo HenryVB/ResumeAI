@@ -39,22 +39,6 @@ def add_header_with_image(document, image_path, text):
     header_text.text = text
     header_text.alignment = WD_PARAGRAPH_ALIGNMENT.LEFT
 
-    # Add a blank paragraph at the beginning to insert header
-    # document.add_paragraph()
-
-    # Add image to header
-    # header_paragraph = document.paragraphs[0]
-    # run = header_paragraph.add_run()
-    # run.add_picture(image_path, width=Inches(6))
-
-    # Set text properties
-    # header_paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.LEFT
-    # header_paragraph.paragraph_format.space_after = Inches(0.2)
-
-    # Add text to header
-    # header_text = document.add_paragraph(text)
-    # header_text.alignment = WD_PARAGRAPH_ALIGNMENT.LEFT
-
 
 def add_heading(document, text):
     document.add_heading(text, level=1)
@@ -99,7 +83,8 @@ def create_document(data):
     add_heading(doc, "EXPERIENCIA")
     add_experience(doc, data["experience"])
 
-    doc.save('Template/resume.docx')
+    # Se puede guardar internamente en un repo s3 con el _id para eficiencia de busqueda
+    doc.save(f'Template/SOAINT_{data["name"]}.docx')
 
 
 def convert_resume_info(data):
@@ -210,7 +195,6 @@ def get_tech_experience_insight(str_data):
         messages=messages
     )
     print("*********resultado insight 1**********")
-    # print(response)
     print(response.choices[0].message.content)
 
 
@@ -246,7 +230,6 @@ def get_featured_clients_projects_insight(str_data):
         messages=messages
     )
     print("*********resultado insight 2**********")
-    # print(response)
     print(response.choices[0].message.content)
 
 
@@ -280,7 +263,6 @@ def get_competencies_skills_analysis_insight(str_data):
         messages=messages
     )
     print("*********resultado insight 3**********")
-    # print(response)
     print(response.choices[0].message.content)
 
 
@@ -359,10 +341,10 @@ def main():
         print("1. Leer CV")
         print("2. Resumen de CV")
         print("3. Conversión de CV")
-        print("4. **Perfiles de Tecnología y Experiencia**")
-        print("5. **Clientes y Proyectos Destacados**")
-        print("6. **Análisis de Competencias y Habilidades**")
-        print("7. **Experiencia Sectorial**")
+        print("4. **Analizar: Perfiles de Tecnología y Experiencia**")
+        print("5. **Analizar: Clientes y Proyectos Destacados**")
+        print("6. **Analizar: Competencias y Habilidades**")
+        print("7. **Analizar: Experiencia Sectorial**")
         print("8. Salir")
 
         choice = input("Por favor, Ingrese una opción (1-8): ")
@@ -475,35 +457,6 @@ def main():
 
         else:
             print("Opción inválida. Ingrese una opción del 1 al 8.")
-
-    # GERSION ITALO TIENE ERROR, REVISAR
-    # resume_file = 'CV/JaimeAngelo_AntunezLugo_945962801.pdf'
-    # print("***Lectura CV***")
-    # full_resume_text = extract_text_from_resume(resume_file)
-    # print(full_resume_text.strip())
-    # print("***Conversion a JSON***")
-    # json_data = convert_resume_info(full_resume_text)
-    # print(json_data)
-    # print("***Creacion de word plantilla***")
-    # create_document(json_data)
-    # print("***Resumen con OpenAI***")
-    # get_summary_ai(full_resume_text)
-    # print("***MongoTest***")
-    # save_resume_db(json_data)
-    # list_resumes = get_all_resumes()
-
-    # list_full_text_resume = []
-    # for item in list_resumes:
-    # print(f"{item['_id']} - {item['name']}")
-    # list_full_text_resume.append(item['full_resume_text'])
-
-    # all_resumes_string = "##RESUME##".join(str(element) for element in list_full_text_resume)
-
-    # get_tech_experience_insight(all_resumes_string)
-    # get_featured_clients_projects_insight(all_resumes_string)
-    # get_competencies_skills_analysis_insight(all_resumes_string)
-    # get_sectorial_experience_insight(all_resumes_string)
-    # print(os.listdir("CV/"))
 
 
 if __name__ == "__main__":
