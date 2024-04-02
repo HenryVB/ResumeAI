@@ -6,9 +6,7 @@ from pymongo import MongoClient
 from docx import Document
 import docx2txt as d2t_reader
 import fitz as pdf_reader  # PyMuPDF
-from docx.shared import Inches
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
-from PIL import Image
 from io import open
 
 from dotenv import dotenv_values
@@ -175,8 +173,7 @@ def get_summary_ai(data):
         model="gpt-3.5-turbo",
         messages=messages
     )
-    print("*********resultado summary**********")
-    print(response)
+    print("*********Resumen**********")
     print(response.choices[0].message.content)
 
 
@@ -347,34 +344,165 @@ def get_all_resumes():
     return list_resumes
 
 
-def main():
-    # GERSION ITALO TIENE ERROR, REVISAR
-    resume_file = 'CV/JaimeAngelo_AntunezLugo_945962801.pdf'
-    print("***Lectura CV***")
-    full_resume_text = extract_text_from_resume(resume_file)
-    print(full_resume_text.strip())
-    print("***Conversion a JSON***")
-    json_data = convert_resume_info(full_resume_text)
-    print(json_data)
-    print("***Creacion de word plantilla***")
-    create_document(json_data)
-    print("***Resumen con OpenAI***")
-    get_summary_ai(full_resume_text)
-    print("***MongoTest***")
-    # save_resume_db(json_data)
-    list_resumes = get_all_resumes()
-
+def build_string_resume_all(list_resumes):
     list_full_text_resume = []
     for item in list_resumes:
-        print(f"{item['_id']} - {item['name']}")
         list_full_text_resume.append(item['full_resume_text'])
 
-    all_resumes_string = "##RESUME##".join(str(element) for element in list_full_text_resume)
+    all_resumes_str = "##RESUME##".join(str(element) for element in list_full_text_resume)
+    return all_resumes_str
 
-    get_tech_experience_insight(all_resumes_string)
-    get_featured_clients_projects_insight(all_resumes_string)
-    get_competencies_skills_analysis_insight(all_resumes_string)
-    get_sectorial_experience_insight(all_resumes_string)
+
+def main():
+    print("***Bienvenidos al programa de conversión de CVs:****")
+    while True:
+        print("1. Leer CV")
+        print("2. Resumen de CV")
+        print("3. Conversión de CV")
+        print("4. **Perfiles de Tecnología y Experiencia**")
+        print("5. **Clientes y Proyectos Destacados**")
+        print("6. **Análisis de Competencias y Habilidades**")
+        print("7. **Experiencia Sectorial**")
+        print("8. Salir")
+
+        choice = input("Por favor, Ingrese una opción (1-8): ")
+
+        if choice == '1':
+            print("****LISTADO DE ARCHIVOS EN EL DIRECTORIO DE PROCESAMIENTO***********")
+            directory = "CV/"
+
+            for name in os.listdir(directory):
+                print(f"Archivo: '{name}'")
+
+            print("!!IMPORTANTE: El archivo debe encontrarse en la ruta de los CVs y ser uno del listado!!!")
+            resume_file = input("Por favor, ingrese el nombre del archivo PDF o Word: ")
+            is_valid_file = None
+
+            for name in os.listdir(directory):
+                if name == resume_file:
+                    is_valid_file = True
+
+            if is_valid_file:
+                print("***Lectura CV***")
+                file_path = os.path.join(directory, resume_file)
+                full_resume_text = extract_text_from_resume(file_path)
+                json_data = convert_resume_info(full_resume_text)
+                print("***Inicio Proceso de guardado de información***")
+                save_resume_db(json_data)
+                print("!!Enhorabuena!! Información de CV guardada con exito =)")
+
+            else:
+                print("Lo sentimos, el archivo no se encuentra en el listado")
+
+        elif choice == '2':
+            list_resumes = get_all_resumes()
+
+            if len(list_resumes):
+                print("****Listados de CVs Disponibles****")
+                for item in list_resumes:
+                    print(f"Codigo: {item['_id']} | Talento: {item['name']}")
+                resume_code = input("Por favor, Ingrese el código del CV a procesar: ")
+                full_resume_text = None
+                for item in list_resumes:
+                    if str(item['_id']) == str(resume_code):
+                        full_resume_text = item['full_resume_text']
+                        break
+
+                if full_resume_text:
+                    get_summary_ai(full_resume_text)
+                    print("Resumen obtenido con exito")
+
+                else:
+                    print("Lo sentimos, no se encontró el código indicado")
+            else:
+                print("No existen CVs, debe cargar uno primero para generar el resumen")
+
+        elif choice == '3':
+            list_resumes = get_all_resumes()
+
+            if len(list_resumes):
+                print("****Listados de CVs Disponibles****")
+                for item in list_resumes:
+                    print(f"Codigo: {item['_id']} | Talento: {item['name']}")
+                resume_code = input("Por favor, Ingrese el código del CV a procesar: ")
+                resume_data = None
+                for item in list_resumes:
+                    if str(item['_id']) == str(resume_code):
+                        resume_data = item
+                        break
+
+                if resume_data:
+                    print("*****Creacion de word plantilla******")
+                    create_document(resume_data)
+                    print("*****Plantilla Creada y guardada con exito*****")
+
+                else:
+                    print("Lo sentimos, no se encontró el código indicado")
+            else:
+                print("No existen CVs, debe cargar uno primero para realizar la conversion")
+
+        elif choice == '4':
+            list_resumes = get_all_resumes()
+            all_resumes_str = build_string_resume_all(list_resumes)
+            print("*****Obteniendo insight: Perfiles de Tecnología y Experiencia*******")
+            get_tech_experience_insight(all_resumes_str)
+            print("Procesamiento finalizado. Revisar contenido")
+
+        elif choice == '5':
+            list_resumes = get_all_resumes()
+            all_resumes_str = build_string_resume_all(list_resumes)
+            print("*****Obteniendo insight: Clientes y Proyectos Destacados*******")
+            get_featured_clients_projects_insight(all_resumes_str)
+            print("Procesamiento finalizado. Revisar contenido")
+
+        elif choice == '6':
+            list_resumes = get_all_resumes()
+            all_resumes_str = build_string_resume_all(list_resumes)
+            print("*****Obteniendo insight: Análisis de Competencias y Habilidades*******")
+            get_competencies_skills_analysis_insight(all_resumes_str)
+            print("Procesamiento finalizado. Revisar contenido")
+
+        elif choice == '7':
+            list_resumes = get_all_resumes()
+            all_resumes_str = build_string_resume_all(list_resumes)
+            print("*****Obteniendo insight: Experiencia Sectorial*******")
+            get_sectorial_experience_insight(all_resumes_str)
+            print("Procesamiento finalizado. Revisar contenido")
+
+        elif choice == '8':
+            print("Gracias por su preferencia. !!Hasta Pronto!!")
+            break
+
+        else:
+            print("Opción inválida. Ingrese una opción del 1 al 8.")
+
+    # GERSION ITALO TIENE ERROR, REVISAR
+    # resume_file = 'CV/JaimeAngelo_AntunezLugo_945962801.pdf'
+    # print("***Lectura CV***")
+    # full_resume_text = extract_text_from_resume(resume_file)
+    # print(full_resume_text.strip())
+    # print("***Conversion a JSON***")
+    # json_data = convert_resume_info(full_resume_text)
+    # print(json_data)
+    # print("***Creacion de word plantilla***")
+    # create_document(json_data)
+    # print("***Resumen con OpenAI***")
+    # get_summary_ai(full_resume_text)
+    # print("***MongoTest***")
+    # save_resume_db(json_data)
+    # list_resumes = get_all_resumes()
+
+    # list_full_text_resume = []
+    # for item in list_resumes:
+    # print(f"{item['_id']} - {item['name']}")
+    # list_full_text_resume.append(item['full_resume_text'])
+
+    # all_resumes_string = "##RESUME##".join(str(element) for element in list_full_text_resume)
+
+    # get_tech_experience_insight(all_resumes_string)
+    # get_featured_clients_projects_insight(all_resumes_string)
+    # get_competencies_skills_analysis_insight(all_resumes_string)
+    # get_sectorial_experience_insight(all_resumes_string)
     # print(os.listdir("CV/"))
 
 
