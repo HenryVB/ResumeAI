@@ -1,0 +1,100 @@
+**Candidato 1: Henry Alonso Valdivia Barba**
+
+Cliente: OSCE
+Proyectos: 
+   - Desarrollo de aplicaciones web responsive usando Java 11, Spring Boot, ReactJS en una arquitectura de microservicios Azure Cloud (Web Trámites digitales, Web Estado de Cuenta)
+   - Desarrollo de aplicaciones en Java para la entidad OSCE
+Tecnologias: Java 11, Spring Boot, ReactJS, Azure Cloud
+
+Cliente: Prima AFP
+Proyectos:
+   - Web en producción para el proyecto de estado de ahorros de Prima AFP
+Tecnologias: ReactJS
+
+Cliente: Volvo, ATSA, App e-commerce
+Proyectos:
+   - Desarrollo de plataformas webs e-commerce utilizando Wordpress
+   - Desarrollo de software a medida web responsive utilizando NodeJS, JavaEE, PHP, VueJS, Angular
+   - Desarrollo de apps móviles nativas e híbridas utilizando NodeJS, Android, iOS y Flutter
+Tecnologias: Wordpress, NodeJS, JavaEE, PHP, VueJS, Angular, Android, iOS, Flutter
+
+**Candidato 2: Jesús Rudolf Cotrina Narciso**
+
+Cliente: G&S Gestión y Sistemas
+Proyectos:
+   - Desarrollo de sistemas para visualizar datos de PLC y sensores mediante Raspberry Pi y NodeRed
+   - Desarrollo de modelos en Tensorflow de visión artificial
+Tecnologias: PLC, Raspberry Pi, NodeRed, Tensorflow
+
+**Candidato 3: Marlon Cristhian Añez Castro**
+
+Cliente: BCP
+Proyectos:
+   - Desarrollo de microservicios en Node.js, Golang y Java
+   - Creación de microfrontends en Vue 3 con single-spa-vue
+Tecnologias: Node.js, Golang, Java, Vue 3, single-spa-vue
+
+Cliente: Calidda
+Proyectos:
+   - Programación de servicios Rest en .Net y flujos frontend en Angular
+Tecnologias: .Net, Angular
+
+Cliente: SUNAT
+Proyectos:
+   - Desarrollo de aplicaciones web de facturación electrónica y OSE
+Tecnologias: Java, MongoDB, Angular, Vue, React
+
+Cliente: Interseguro
+Proyectos:
+   - Diseño y desarrollo de aplicaciones con microservicios y arquitecturas frontend en Vue, React y Angular
+   - Implementación de registro de eventos y reportes de salud
+Tecnologias: Vue, React, Angular, Node.js, Golang, MongoDB, PostgreSQL, Oracle, GCP
+
+**Candidato 4: Eder Junior Lar Soto**
+
+Cliente: TPAGA, DAVIVIENDA, DAVIPLATA
+Proyectos:
+   - Desarrollo de procesos y transacciones para bancos y servicios electrónicos en Colombia
+Tecnologias: Java, MongoDB, SQLServer, Oracle, Azure
+
+Cliente: SUNAT
+Proyectos:
+   - Desarrollo de funcionalidades para la plataforma web SUNAT y consultas de comprobantes
+Tecnologias: Java, MongoDB, PostgreSQL, Oracle, GitLab, Bamboo
+
+Cliente: GENEXUS
+Proyectos:
+   - Desarrollo de aplicaciones web a medida para diversas empresas
+Tecnologias: Java, Genexus, MySQL, Tomcat
+
+Cliente: DIRESA Lima
+Proyectos:
+   - Diseño web y mantenimiento de la página web DIRESA
+Tecnologias: Angular, Bootstrap, MySQL, Eclipse
+
+**Candidato 5: Angelo Lugo**
+
+Cliente: Suites Movil (Arquitectura de Microservicios)
+Proyectos:
+   - Desarrollo de aplicaciones web de facturación electrónica y OSE
+Tecnologias: Java8, Spring Cloud, MongoDB, Angular, Vue, React, BitBucket, GCP
+
+Cliente: SUNAT
+Proyectos:
+   - Desarrollo de la funcionalidad de Registros de Diligencia para Declaraciones de Transito Aduanero Internacional SUNAT
+Tecnologias: Java8-11, MongoDB, Aqua Data Studio, WebLogic12, GCP
+
+Cliente: Hiper SA (Colombia)
+Proyectos:
+   - Desarrollo y mantenimiento de procesos y transacciones para bancos y servicios electrónicos en Colombia
+Tecnologias: Java8-11, MongoDB, SQLServer, Oracle, Azure
+
+Cliente: PROEMSA SAC
+Proyectos:
+   - Desarrollo de aplicaciones web a medida para diversas empresas y clientes
+Tecnologias: Java 8,11, Genexus X,15, MySQL, WinSCP, Tomcat, DB2, PostgreSQL
+
+Cliente: DIRESA Lima
+Proyectos:
+   - Mantenimiento del Portal de Transparencia de DIRESA y desarrollo de Reportes documentación de Serums
+Tecnologias: Angular 6, Bootstrap, MySQL, Eclipse, Java 8, Oracle WLS12

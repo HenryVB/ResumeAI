@@ -1,0 +1,19 @@
+- Sector o Industria: Tecnología de la Información
+- Número de empleadores especializados: 5
+- Experiencia promedio: 7 años
+- Nivel de experiencia: 3 (Experto)
+
+- Sector o Industria: Ingeniería de Software
+- Número de empleadores especializados: 4
+- Experiencia promedio: 5 años
+- Nivel de experiencia: 2 (Medio)
+
+- Sector o Industria: Servicios Financieros
+- Número de empleadores especializados: 2
+- Experiencia promedio: 2 años
+- Nivel de experiencia: 1 (Bajo)
+
+- Sector o Industria: Consultoría en Software
+- Número de empleadores especializados: 1
+- Experiencia promedio: 1 año
+- Nivel de experiencia: 1 (Bajo)

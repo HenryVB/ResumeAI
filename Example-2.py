@@ -160,6 +160,7 @@ def get_summary_ai(data):
     )
     print("*********Resumen**********")
     print(response.choices[0].message.content)
+    write_txt_file("output/summary.txt",response.choices[0].message.content)
 
 
 def get_tech_experience_insight(str_data):
@@ -172,16 +173,15 @@ def get_tech_experience_insight(str_data):
             Each candidate resume information is separated by the word ##RESUME##.
             Your task is to analyze the education,skills,experience and certification mentioned in the information of each candidate. Identify the most common programming languages, frameworks, tools, technologies and methodologies. 
             You will highlight first the top skills found among the candidates.
-            You will return a json array format of the top programming languages,frameworks,tools,methodologies and technologies mentioned, 
+            You will return a structured list with programming languages,frameworks,tools,methodologies and technologies mentioned, 
             along with their frequencies and expertise level for each item.
             For expertise level consider 0-3 where 0 is No Experience and 3 Expert. 
             To determine expertise level take into consideration factors like education,skills, certification and experience in technology 
-            Here an example for desired JSON Format and explanation of each field:
-                {
-                    "Technology": <Name of Programming Language, framework, tool,methodology or technology> (Example: Python),
-                    "Frecuency": <Frecuency found> (Example: 3),
-                    "Expertise": <Expertise level of technology> (Example: 3), 
-                }
+            Here an example of each element from the list:
+            
+                    -Tecnología: <Programming Language, framework, tool,methodology or technology> (Example: Python),
+                    -Frecuencia: <Frecuency used> (Example: 3),
+                    -Experiencia Promedio": <Expertise level of technology> (Example: 3), 
             """,
         },
         {
@@ -196,6 +196,7 @@ def get_tech_experience_insight(str_data):
     )
     print("*********resultado insight 1**********")
     print(response.choices[0].message.content)
+    write_txt_file("output/insight_1.txt", response.choices[0].message.content)
 
 
 def get_featured_clients_projects_insight(str_data):
@@ -231,6 +232,7 @@ def get_featured_clients_projects_insight(str_data):
     )
     print("*********resultado insight 2**********")
     print(response.choices[0].message.content)
+    write_txt_file("output/insight_2.txt", response.choices[0].message.content)
 
 
 def get_competencies_skills_analysis_insight(str_data):
@@ -264,7 +266,7 @@ def get_competencies_skills_analysis_insight(str_data):
     )
     print("*********resultado insight 3**********")
     print(response.choices[0].message.content)
-
+    write_txt_file("output/insight_3.txt", response.choices[0].message.content)
 
 def get_sectorial_experience_insight(str_data):
     config = dotenv_values(".env")
@@ -304,6 +306,7 @@ def get_sectorial_experience_insight(str_data):
     print("*********resultado insight 4**********")
     # print(response)
     print(response.choices[0].message.content)
+    write_txt_file("output/insight_4.txt", response.choices[0].message.content)
 
 
 def save_resume_db(data):
@@ -333,6 +336,10 @@ def build_string_resume_all(list_resumes):
 
     all_resumes_str = "##RESUME##".join(str(element) for element in list_full_text_resume)
     return all_resumes_str
+
+def write_txt_file(file,message):
+    with open(file, "w+") as archivo:
+        archivo.writelines(message)
 
 
 def main():
@@ -391,6 +398,7 @@ def main():
                         break
 
                 if full_resume_text:
+                    print("***Inicio Generación Resumen***")
                     get_summary_ai(full_resume_text)
                     print("Resumen obtenido con exito")
 

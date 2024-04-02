@@ -1,0 +1,43 @@
+- Tecnología: Java
+- Frecuencia: 8
+- Experiencia Promedio: 2
+
+- Tecnología: Node.js
+- Frecuencia: 5
+- Experiencia Promedio: 2
+
+- Tecnología: Angular
+- Frecuencia: 5
+- Experiencia Promedio: 2
+
+- Tecnología: Spring Boot
+- Frecuencia: 4
+- Experiencia Promedio: 2
+
+- Tecnología: React
+- Frecuencia: 3
+- Experiencia Promedio: 2
+
+- Tecnología: Vue.js
+- Frecuencia: 3
+- Experiencia Promedio: 2
+
+- Tecnología: Golang
+- Frecuencia: 3
+- Experiencia Promedio: 2
+
+- Tecnología: AWS
+- Frecuencia: 3
+- Experiencia Promedio: 2
+
+- Tecnología: MongoDB
+- Frecuencia: 3
+- Experiencia Promedio: 2
+
+- Tecnología: SQL Server
+- Frecuencia: 3
+- Experiencia Promedio: 2
+
+- Tecnología: Oracle
+- Frecuencia: 3
+- Experiencia Promedio: 2
